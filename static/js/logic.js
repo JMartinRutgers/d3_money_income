@@ -13,7 +13,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(myMap);
 
 // Load in geojson data
-var geoData = "static/data/Median_Household_Income_2016.geojson.zip";
+var geoData = "static/data/Median_Household_Income_2016.geojson";
 
 var geojson;
 
